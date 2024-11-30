@@ -8,4 +8,4 @@ ForgePeoples是一个Ekuta Studio旗下的短文章社交平台。<br>
 ## 这里目前有什么？
 ForgePeoples的默认网页样式文件（需要配合Bootstrap5使用）<br>
 ForgePeoples官方网站的前端文件<br>
-自创的图片资源
+ForgePeoples自创的图片资源
