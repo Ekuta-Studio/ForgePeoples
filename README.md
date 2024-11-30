@@ -1,6 +1,6 @@
 # ForgePeoples 官方开源仓库
 ForgePeoples offical open source repository<br>
-以下内容均将使用简体中文，英语请前往README_en.md。
+The following content will be in Simplified Chinese. For English, please visit README_en.md.
 ## 介绍
 ForgePeoples是一个Ekuta Studio旗下的短文章社交平台。<br>
 这个仓库是ForgePeoples的官方开源仓库，这里会公开部分ForgePeoples源代码。<br>
