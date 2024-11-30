@@ -1,0 +1,151 @@
+/* 全局样式 */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.png'); /* 替换为你的背景图片路径 */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* 添加一个半透明的白色背景以提高内容可读性 */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 导航栏样式 */
+ul.list-inline {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.list-inline li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+ul.list-inline li a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul.list-inline li a:hover {
+    text-decoration: underline;
+}
+
+/* 公告栏样式 */
+.alert-info {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000000;
+    padding: 15px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border-color: rgba(255,255,255,0);
+}
+
+/* 搜索框样式 */
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* 推文卡片样式 */
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body strong {
+    font-size: 18px;
+    color: #333;
+}
+
+.card-body a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.card-body a:hover {
+    text-decoration: underline;
+}
+
+.card-body .like-btn, .card-body .show-comments-btn {
+    margin-top: 10px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-body .like-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.card-body .like-btn:hover {
+    background-color: #0056b3;
+}
+
+.card-body .show-comments-btn {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+}
+
+.card-body .show-comments-btn:hover {
+    background-color: #5a6268;
+}
+
+.card-body .comments-section {
+    margin-top: 15px;
+}
+
+.card-body .comments-section .comment-form {
+    margin-bottom: 10px;
+}
+
+.card-body .comments-section .comments-list {
+    margin-top: 10px;
+}
+
+.card-body .comments-section .comments-list .comment {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.card-body .comments-section .comments-list .comment strong {
+    color: #007bff;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.rounded-circle {
+    border-radius: 50%;
+}
